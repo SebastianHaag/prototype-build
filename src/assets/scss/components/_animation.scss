@@ -1,0 +1,7 @@
+$short-transition:     200ms;
+$normal-transition:     400ms;
+$long-transition:     600ms;
+
+@mixin css-transition($time) {
+   transition: all $time ease-in;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:700');
+
+h1,h2,h3,h4,h5,h6{
+   text-transform: uppercase;
+   color: $primary-color;
+}
+@include breakpoint(medium) {
+   h2{
+      padding-top: 48px;
+      padding-bottom: 72px;
+   }
+}
+
+
+.top-content{
+   h1{
+      padding-top: 48px;
+      padding-bottom: 32px;
+   }
+   h6{
+      font-family: 'Cabin', sans-serif;
+      font-size: 8rem;
+      font-weight: 700;
+      line-height: 1;
+      margin-left: -2px;
+      margin-top: -110px;
+      opacity: 1 !important;
+      @include breakpoint(medium) {
+         font-size: 12rem;
+         margin-top: -145px;
+         margin-left: -10px;
+      }
+      @include breakpoint(large) {
+         font-size: 18rem;
+         margin-top: -200px;
+         margin-left: -18px;
+      }
+   }
+}

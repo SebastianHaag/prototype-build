@@ -1,0 +1,72 @@
+.card{
+   width: 100%;
+   background-color: $white;
+   box-shadow: 0px 15px 50px -5px rgba(0,0,0,0.16);
+   margin-bottom: 48px;
+   @include breakpoint(large) {
+      @include css-transition($short-transition);
+      &:hover{
+         box-shadow: 0px 20px 50px -5px rgba(0,0,0,0.32);
+         .card__header{
+            background-position: 50% 33%;
+         }
+         .card__btn{
+            &:before {
+               right: 0;
+            }
+         }
+      }
+   }
+}
+.card__header{
+   width: 100%;
+   height: 160px;
+   background-image: url("http://placehold.it/640x360/E8E4E4/172121");
+   background-position: 50% 50%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   @include css-transition($short-transition);
+   .card__title{
+      font-size: 2rem;
+      padding: 20px 30px;
+   }
+}
+.card__desc{
+   .card__desc-p{
+      padding: 20px 30px;
+      font-size: 0.9rem;
+   }
+}
+.card__btn{
+   padding: 22px 30px;
+   position: relative;
+   display: block;
+   width: 100%;
+   height: 68px;
+   overflow:hidden;
+   background: $dark-gray;
+   @include breakpoint(large) {
+      background: $medium-gray;
+      z-index: 1;
+      cursor: pointer;
+      @include css-transition($short-transition);
+      &:before {
+         content: "";
+         position: absolute;
+         background: $dark-gray;
+         bottom: 0;
+         left: 0;
+         right: 100%;
+         top: 0;
+         z-index: -1;
+         @include css-transition($short-transition);
+      }
+   }
+   .card__btn_text{
+      font-weight: bold;
+      color: $primary-color;
+      @include breakpoint(large) {
+         color: $primary-color;
+      }
+   }
+}
