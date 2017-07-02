@@ -50,7 +50,7 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #172121,
+  primary: #7358B7,
   secondary: #40798C,
   success: #3adb76,
   warning: #ffae00,
@@ -60,7 +60,7 @@ $light-gray: #E8E4E4;
 $medium-gray: #D1CDCD;
 $dark-gray: #BAB6B6;
 $black: #172121;
-$white: #FFFAFA;
+$white: #ffffff;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
@@ -246,9 +246,9 @@ $breadcrumbs-item-slash: true;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: $primary-color;
-$button-background-hover: scale-color($button-background, $lightness: -15%);
-$button-color: $white;
+$button-background: $white;
+$button-background-hover: $primary-color;
+$button-color: $primary-color;
 $button-color-alt: $black;
 $button-radius: $global-radius;
 $button-sizes: (
@@ -261,7 +261,7 @@ $button-palette: $foundation-palette;
 $button-opacity-disabled: 0.25;
 $button-background-hover-lightness: -20%;
 $button-hollow-hover-lightness: -50%;
-$button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+$button-transition: background-color 0.3s ease-out, color 0.3s ease-out;
 
 // 12. Button Group
 // ----------------

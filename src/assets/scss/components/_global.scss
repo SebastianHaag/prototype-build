@@ -15,14 +15,14 @@ header{
 }
 
 section{
-   padding-top: 50px;
-   padding-bottom: 50px;
+   padding: 50px 0;
    min-height: 200px;
    @include breakpoint(medium) {
    }
    &#top{
       height: 300px;
-      background-image: url("../img/tops.jpg");
+      background-color: #533e81;
+      background-image: url("../img/header__bg@2x.jpg");
       background-size: cover;
       background-position: 50% 10%;
       background-repeat: no-repeat;
@@ -31,31 +31,56 @@ section{
       @include css-transition($normal-transition);
       @include breakpoint(medium) {
          height: 500px;
-         height: 100vh;
-         &.loaded{
-            height: 500px;
-         }
       }
       #topLoaded{
          position: fixed;
-         top: 50px;
+         top: 10px;
          left: 0px;
       }
    }
    &#about{
       background-color: transparent;
+      @include breakpoint(large) {
+         padding-bottom: 120px;
+      }
    }
    &#services{
-      background-color: $light-gray;
+      padding: 0;
+      background-color: #F4F4F4;
+      .service{
+         padding: 50px 0;
+         background-color: #F4F4F4;
+         text-align: center;
+         &:nth-child(2){
+            background-color: #F9F9F9;
+         }
+      }
+      .service__icon{
+         width: 175px;
+         height: 175px;
+         margin: 0 auto;
+         background-position: center;
+         background-repeat: no-repeat;
+         &.service-1{
+            background-image: url(../img/ico-pharma.svg);
+         }
+         &.service-2{
+            background-image: url(../img/ico-automation.svg);
+         }
+         &.service-3{
+            background-image: url(../img/ico-consulting.svg);
+         }
+      }
+      h2{
+
+      }
+      p{
+         padding: 0 65px;
+      }
    }
    &#clients{
       background-color: $white;
    }
    &#contact{
-      background-image: url("../img/forest.jpg");
-      background-size: cover;
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
    }
 }

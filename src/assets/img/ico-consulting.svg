@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="167px" height="96px" viewBox="0 0 167 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>ICO Consulting</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop" transform="translate(-983.000000, -1523.000000)" stroke="#7358B7">
+            <g id="Services--v2" transform="translate(0.000000, 1422.000000)">
+                <g id="Service-3" transform="translate(853.000000, 0.000000)">
+                    <g id="ICO-Consulting" transform="translate(126.000000, 45.000000)">
+                        <g transform="translate(7.752475, 59.482759)">
+                            <path d="M37.9170119,28.5465517 L54.7338535,45.3758621 C60.8884574,51.5353448 70.8667545,51.5353448 77.020497,45.3758621 L114.934408,7.43275862" id="Stroke-1" stroke-width="6"></path>
+                            <path d="M26.7500881,17.3699138 L30.2636822,20.8862931" id="Stroke-3" stroke-width="6"></path>
+                            <path d="M23.2457109,32.3862931 L45.562503,54.7216379 C56.7829188,65.9500862 74.9728099,65.9500862 86.191503,54.7216379 L120.354939,20.5311207" id="Stroke-5" stroke-width="6"></path>
+                            <path d="M9.56784653,37.2211207 L16.6665297,44.3262931" id="Stroke-7" stroke-width="6"></path>
+                            <path d="M8.61386139e-05,27.6456897 L2.99857129,30.6465517" id="Stroke-9" stroke-width="6"></path>
+                            <path d="M23.9212099,51.5858621 L36.2700416,63.9444828 C52.6208733,80.3091379 79.1334772,80.3091379 95.4851703,63.9444828 L146.980556,12.4082759" id="Stroke-11" stroke-width="6"></path>
+                            <path d="M16.666702,62.85 L27.0369297,73.2284483 C48.4880287,94.6956897 83.2664941,94.6956897 104.717593,73.2284483 L159.321722,18.5801724" id="Stroke-13" stroke-width="6"></path>
+                            <path d="M6.88945248,53.065 L10.0335119,56.2106897" id="Stroke-15" stroke-width="6"></path>
+                            <polyline id="Stroke-17" stroke-width="6" points="114.934494 7.43258621 130.143128 10.7946552 133.499088 26.0136207"></polyline>
+                            <polyline id="Stroke-19" stroke-width="6" points="140.757645 -0.00025862069 155.966278 3.36181034 159.322239 18.5807759"></polyline>
+                            <path d="M140.757645,-0.00025862069 L130.056645,10.7083621" id="Stroke-21" stroke-width="6"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

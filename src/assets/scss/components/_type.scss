@@ -1,39 +1,80 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin:700');
+@font-face {
+    font-family: 'metropolis-bold';
+    src: url('../font/metropolis-bold-webfont.woff2') format('woff2'),
+         url('../font/metropolis-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-h1,h2,h3,h4,h5,h6{
-   text-transform: uppercase;
-   color: $primary-color;
 }
-@include breakpoint(medium) {
-   h2{
-      padding-top: 48px;
-      padding-bottom: 72px;
+
+@font-face {
+    font-family: 'metropolis-semi_bold';
+    src: url('../font/metropolis-semibold-webfont.woff2') format('woff2'),
+         url('../font/metropolis-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metropolis-regular';
+    src: url('../font/metropolis-regular-webfont.woff2') format('woff2'),
+         url('../font/metropolis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metropolis-light';
+    src: url('../font/metropolis-light-webfont.woff2') format('woff2'),
+         url('../font/metropolis-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+   font-family: 'metropolis-bold';
+   color: #CCC9CE;
+   font-size: 5.375rem;
+   line-height: 1.221;
+   margin-top: -160px;
+   margin-bottom: 80px;
+   opacity: 1 !important;
+   @include breakpoint(medium) {
+   }
+   @include breakpoint(large) {
    }
 }
 
+h2{
+   font-family: 'metropolis-semi_bold';
+   color: #36235C;
+   font-size: 1.5rem;
+   line-height: 2.3;
+   padding-bottom: 18px;
+}
 
-.top-content{
-   h1{
-      padding-top: 48px;
-      padding-bottom: 32px;
+p{
+   font-family: 'metropolis-light';
+   color: #403F43;
+   font-size: 1.125rem;
+   line-height: 1.444;
+   &.intro{
+      font-family: 'metropolis-regular';
+      font-size: 2.1875rem;
+      line-height: 1.286;
+      margin-bottom: 80px;
    }
-   h6{
-      font-family: 'Cabin', sans-serif;
-      font-size: 8rem;
-      font-weight: 700;
-      line-height: 1;
-      margin-left: -2px;
-      margin-top: -110px;
-      opacity: 1 !important;
-      @include breakpoint(medium) {
-         font-size: 12rem;
-         margin-top: -145px;
-         margin-left: -10px;
-      }
-      @include breakpoint(large) {
-         font-size: 18rem;
-         margin-top: -200px;
-         margin-left: -18px;
-      }
+}
+ul li a{
+   font-family: 'metropolis-bold';
+   color: $white;
+   font-size: 1.125rem;
+   line-height: 1.222;
+   @include css-transition($short-transition);
+   &:hover{
+      color: darken($white, 15%)
    }
 }
