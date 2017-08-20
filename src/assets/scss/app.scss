@@ -46,13 +46,16 @@
 @include foundation-visibility-classes;
 @include foundation-float-classes;
 // @include foundation-flex-classes;
-// @include motion-ui-transitions;
-// @include motion-ui-animations;
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+
 /** CUSTOM COMPONENTS **/
 @import 'components/animation';
 @import 'components/type';
 @import 'components/nav';
 @import 'components/button';
+@import 'components/modal';
 // @import 'components/card';
 
 @import 'components/global';

@@ -1,9 +1,7 @@
 body{
    background-color: $white !important;
 }
-.full.reveal{
-   @include css-transition($long-transition);
-}
+
 hr{
    border: 0 none;
    border-bottom: solid 1px transparent;
@@ -21,21 +19,18 @@ section{
    }
    &#top{
       height: 300px;
-      background-color: #533e81;
-      background-image: url("../img/header__bg@2x.jpg");
+      background-color: $primary-color;
+      background-image: url("../img/header_bg.png");
       background-size: cover;
-      background-position: 50% 10%;
+      background-position: 50% 50%;
       background-repeat: no-repeat;
       opacity: 1;
-      transition-delay: 600ms;
-      @include css-transition($normal-transition);
+      @include css-transition($short-transition);
       @include breakpoint(medium) {
          height: 500px;
-      }
-      #topLoaded{
-         position: fixed;
-         top: 10px;
-         left: 0px;
+         &.loaded{
+            height: 350px;
+         }
       }
    }
    &#about{
@@ -45,14 +40,24 @@ section{
       }
    }
    &#services{
-      padding: 0;
+      @include breakpoint(medium) {
+         .service__spacer{
+            height: 60px;
+            width: 100%;
+            background-color: $white;
+         }
+      }
+      padding: 0px;
       background-color: #F4F4F4;
       .service{
          padding: 50px 0;
-         background-color: #F4F4F4;
+         background-color: #F9F9F9;
          text-align: center;
          &:nth-child(2){
-            background-color: #F9F9F9;
+            background-color: #F4F4F4;
+         }
+         @include breakpoint(medium) {
+            padding: 120px 0;
          }
       }
       .service__icon{
@@ -78,9 +83,47 @@ section{
          padding: 0 65px;
       }
    }
-   &#clients{
+   &#customers{
       background-color: $white;
+      @include breakpoint(medium) {
+         padding: 140px 0 0 0;
+      }
+      .client__logo{
+         margin-bottom: 24px;
+         margin-right: -24px;
+         @include breakpoint(xlarge) {
+            margin-right: 0px;
+         }
+      }
    }
-   &#contact{
+   &#work-with-us{
+      @include breakpoint(medium) {
+         padding: 140px 0 70px 0;
+      }
+   }
+}
+footer {
+   padding: 60px 0;
+   background-color: $primary-color;
+   h3 {
+      margin-bottom: 0.15rem;
+   }
+   p {
+      color: $white;
+   }
+   a {
+      color: $white;
+      font-family: 'metropolis-light';
+      &:hover, &:focus{
+         color: $white;
+      }
+   }
+   hr {
+      border-bottom: solid 2px $secondary-color;
+      margin: 50px 0 20px 0;
+   }
+   span {
+      color: $white;
+      font-size: 0.8rem;
    }
 }

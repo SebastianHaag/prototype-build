@@ -1,11 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
-  &:hover, &:focus, &:link{
-     outline: 0 none !important;
-     -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
-  }
+   margin: 0;
+   padding: 0;
 }
 
 nav{
@@ -17,26 +12,39 @@ nav{
    z-index: 1000;
    -webkit-transform: translate3d(0,0,0);
    backface-visibility: hidden;
-   a{
-      svg#logo{
-         height: 71px;
-         width: 178px;
+   @include breakpoint(medium) {
+      height: 140px;
+      position: fixed;
+      @include css-transition($short-transition);
+   }
+   .nav__logo{
+      svg.nav__logo__icon{
+         height: 60px;
+         width: 60px;
+         transform: scale(1.2);
          margin-top: 30px;
+         margin-left: 230px;
+         position: absolute;
+         @include css-transition($short-transition);
+         transition-delay: 100ms;
+      }
+      svg.nav__logo__type{
+         height: 200px;
+         transform: scale(1.2);
+         margin-top: 75px;
+         margin-left: 34px;
+         opacity: 1;
+         @include css-transition($short-transition);
+         transition-delay: 50ms;
       }
    }
-   ul{
+   ul.menu{
       display: none;
-   }
-}
-
-@include breakpoint(medium) {
-   nav{
-      height: 140px;
-      position: absolute;
-      ul{
+      @include breakpoint(medium) {
          display: inline-block;
-         padding-top: 61px;
+         padding-top: 76px;
          float: right;
+         @include css-transition($short-transition);
          li{
             display: inline-block;
             opacity: 1;
@@ -46,10 +54,43 @@ nav{
             &:last-of-type{
                margin-right: 0px;
             }
-            a{
+            a.menu-link{
                color: $white;
                display: inline;
+               width: 25%;
+               @include css-transition($short-transition);
+               &:hover{
+                  color: darken($white, 15%);
+               }
             }
+         }
+      }
+   }
+   &.scrolled{
+      height: 80px;
+      background-color: #574195; // Old browsers
+      background: -moz-linear-gradient(left, #574195 0%, #6854a0 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #574195 0%,#6854a0 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #574195 0%,#6854a0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#574195', endColorstr='#6854a0',GradientType=1 ); /* IE6-9 */
+      .nav__logo{
+         svg.nav__logo__icon{
+            @include breakpoint(medium) {
+               transform: scale(1.5);
+               margin-top: 32px;
+               margin-bottom: 30px;
+               margin-left: 19px;
+            }
+         }
+         svg.nav__logo__type{
+            @include breakpoint(medium) {
+               opacity: 0;
+            }
+         }
+      }
+      ul{
+         @include breakpoint(medium) {
+            padding-top: 19px;
          }
       }
    }

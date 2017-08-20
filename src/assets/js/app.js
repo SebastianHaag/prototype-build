@@ -1,33 +1,36 @@
 $(document).ready(function() {
 
-   //LOADING
-   $(window).load(function() {
-   });
-
    //FOUNDATION
    $(document).foundation();
 
+   //LOADING
+   $(window).load(function() {
+      $("#top").toggleClass('loaded');
+   });
+
+   //NAV
+   $(window).scroll(function () {
+        if ($(document).scrollTop() > $(window).height()-($(window).height()/1.15)) {
+            $("nav").addClass("scrolled");
+        } else {
+            $("nav").removeClass("scrolled");
+        }
+   });
 
    //SCROLL
-   $(document).on('click', 'a', function(event){
+   $(document).on('click', 'a.menu-link', function(event){
       event.preventDefault();
-      if (matchMedia('all and (orientation:landscape)').matches) {
          $('html, body').animate({
             scrollTop: $( $.attr(this, 'href') ).offset().top
          }, 500);
-      }
    });
 
-   // Get all the menu link
+   // // Get all the menu link
    var $menu_links = $(".menu-link");
-   //Scrollreveal
+
+   // Scrollreveal
    window.sr = ScrollReveal({
-      reset: true,
-      afterReveal: function (domEl) {
-         var $active_link = $('a[href="#' + domEl.id + '"]');
-         $menu_links.removeClass('is-active');
-         $active_link.addClass('is-active');
-      }
+      reset: false,
    });
-   sr.reveal('.sr-section', { mobile: false, duration: 600, scale: 1, viewFactor: 0.2, viewOffset: { top: -100, right: 0, bottom: 0, left: 0 }});
+   sr.reveal('.sr-section', { mobile: false, duration: 800, scale: 1, viewFactor: 0.2, opacity:0.8, viewOffset: { top: 90, right: 0, bottom: 0, left: 0 }, });
 });

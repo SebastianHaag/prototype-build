@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="154px" height="128px" viewBox="0 0 154 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+<svg width="170px" height="93px" viewBox="0 0 170 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
     <title>ICO Pharma -v2</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Desktop" transform="translate(-136.000000, -1490.000000)" stroke="#7358B7">
-            <g id="Services--v2" transform="translate(0.000000, 1422.000000)">
-                <g id="Service-1">
-                    <g id="ICO-Pharma--v2" transform="translate(126.000000, 45.000000)">
-                        <g transform="translate(13.782178, 26.724138)">
-                            <path d="M51.8198703,40.2313793 C48.9755733,41.5003448 46.4465436,43.3624138 44.3955832,45.6658621" id="Stroke-1" stroke-width="6"></path>
-                            <path d="M26.209999,59.6717241 C26.209999,78.9725862 41.843296,94.6182759 61.1288703,94.6182759" id="Stroke-3" stroke-width="6"></path>
-                            <path d="M36.1130109,35.2905172 C33.037001,38.45 30.5544861,42.1913793 28.8437733,46.3336207" id="Stroke-5" stroke-width="6"></path>
-                            <path d="M20.7291713,85.6685345 C29.2758446,98.9426724 44.176102,107.734052 61.1281812,107.734052" id="Stroke-7" stroke-width="6"></path>
-                            <path d="M13.4183287,65.1910345 C13.8455762,68.9324138 14.7017941,72.5427586 15.9370218,75.972931" id="Stroke-9" stroke-width="6"></path>
-                            <path d="M17.8851327,38.7438793 C15.5878158,43.4887069 14.0476574,48.6688793 13.4214297,54.1275" id="Stroke-11" stroke-width="6"></path>
-                            <path d="M0.776453465,49.8960345 C0.265651485,53.0787931 0.000344554455,56.3443103 0.000344554455,59.6718966 C0.000344554455,93.4589655 27.368305,120.849483 61.1286119,120.849483" id="Stroke-13" stroke-width="6"></path>
-                            <path d="M8.18652772,29.0682759 C6.41293366,32.1355172 4.89775545,35.37 3.67114158,38.7432759" id="Stroke-15" stroke-width="6"></path>
-                            <path d="M28.2894713,8.0637931 C23.7094812,10.9887931 19.5446792,14.5077586 15.9036,18.512069" id="Stroke-17" stroke-width="6"></path>
-                            <path d="M42.8316505,1.28258621 C41.784205,1.61103448 40.7496802,1.96706897 39.7272149,2.34896552" id="Stroke-19" stroke-width="6"></path>
-                            <path d="M57.3049188,10.5077586 C59.0612851,10.0241379 60.8236812,9.56637931 62.5878,9.11982759" id="Stroke-21" stroke-width="6"></path>
-                            <path d="M24.105805,29.0590517 C28.8968347,23.2616379 35.3012406,18.9090517 42.1070525,15.8073276 C44.0348347,14.9288793 45.998795,14.1409483 47.988597,13.4211207" id="Stroke-23" stroke-width="6"></path>
-                            <path d="M42.8320812,1.28344828 L46.9193584,-0.000172413793" id="Stroke-25" stroke-width="6"></path>
-                            <path d="M57.3049188,23.7948276 C52.8851465,25.0698276 48.5902752,26.7801724 44.5038594,28.8931034" id="Stroke-27" stroke-width="6"></path>
-                            <path d="M39.5430505,56.502931 C39.3931693,57.5374138 39.3147832,58.5960345 39.3147832,59.6718966 C39.3147832,71.7287931 49.0811792,81.502931 61.1285257,81.502931 L114.747229,81.502931" id="Stroke-29" stroke-width="6"></path>
-                            <path d="M61.1285257,94.6183621 L109.442813,94.6183621" id="Stroke-31" stroke-width="6"></path>
-                            <path d="M61.1285257,107.733793 L133.954417,107.733793" id="Stroke-33" stroke-width="6"></path>
-                            <path d="M61.1285257,120.849138 L138.350932,120.849138" id="Stroke-35" stroke-width="6"></path>
-                            <polyline id="Stroke-37" stroke-width="6" points="114.746884 81.502931 123.125587 94.6434483 114.746884 107.777931"></polyline>
-                            <polyline id="Stroke-39" stroke-width="6" points="138.257902 94.6183621 146.636605 107.758879 138.350932 120.849397"></polyline>
-                            <path d="M138.257902,94.6183621 L123.12507,94.6183621" id="Stroke-41" stroke-width="6"></path>
+        <g id="Desktop-initial" transform="translate(-163.000000, -1055.000000)" stroke="#7358B7">
+            <g id="Services--v2" transform="translate(-1.000000, 955.000000)">
+                <g id="Service-1" transform="translate(52.000000, 15.000000)">
+                    <g id="ICO-Pharma--v2" transform="translate(106.814815, 45.000000)">
+                        <g id="Page-1" transform="translate(9.050000, 42.875000)">
+                            <path d="M25.0397557,87.0049585 L13.5059293,87.0049585" id="Stroke-1" stroke-width="6"></path>
+                            <path d="M109.168574,70.042943 C97.4726921,81.3511166 82.1423672,87.0056114 66.8137304,87.0047953 L37.9812745,87.0047953" id="Stroke-3" stroke-width="6"></path>
+                            <path d="M91.0085162,52.4848756 L124.484044,20.1190337" id="Stroke-5" stroke-width="6"></path>
+                            <path d="M100.088545,61.2639093 L150.547031,12.4780803" id="Stroke-7" stroke-width="6"></path>
+                            <path d="M109.168574,70.042943 L162.67405,18.3111295" id="Stroke-9" stroke-width="6"></path>
+                            <polyline id="Stroke-11" stroke-width="6" points="119.078634 7.7871101 133.98103 10.9697526 137.269415 25.3748821"></polyline>
+                            <polyline id="Stroke-13" stroke-width="6" points="144.449338 0.815572539 159.351734 3.99903109 162.673881 18.3111295"></polyline>
+                            <path d="M144.449338,0.815572539 L133.963811,10.953513" id="Stroke-15" stroke-width="6"></path>
+                            <path d="M59.6454552,74.5894702 L66.8138992,74.5894702 L66.8155873,74.5894702 C78.8583707,74.5894702 90.9003101,70.1476438 100.088545,61.2639909" id="Stroke-17" stroke-width="6"></path>
+                            <path d="M30.1048484,74.5894702 L46.140792,74.5894702" id="Stroke-19" stroke-width="6"></path>
+                            <path d="M0.000422020725,74.5894702 L17.1631609,74.5894702" id="Stroke-21" stroke-width="6"></path>
+                            <path d="M48.9548262,62.1747979 L66.8138992,62.1747979 L66.8147433,62.1747979 C75.5708293,62.1739819 84.3269153,58.9448238 91.0083474,52.4848756" id="Stroke-23" stroke-width="6"></path>
+                            <path d="M25.0405997,62.1747979 L36.2942044,62.1747979" id="Stroke-25" stroke-width="6"></path>
+                            <path d="M8.44159617,62.1747979 L13.5041568,62.1747979" id="Stroke-27" stroke-width="6"></path>
+                            <path d="M62.182475,49.7593096 L66.8137304,49.7593096 L66.8145745,49.7593096 C72.2848071,49.7593096 77.7541957,47.7411878 81.9288247,43.7057604 L119.078465,7.78678368" id="Stroke-29" stroke-width="6"></path>
+                            <path d="M40.2325018,49.7593096 L49.7980236,49.7593096" id="Stroke-31" stroke-width="6"></path>
+                            <path d="M21.9471034,49.7593096 L28.1339273,49.7593096" id="Stroke-33" stroke-width="6"></path>
                         </g>
                     </g>
                 </g>

@@ -6,7 +6,14 @@
    font-size: 1.25rem;
    box-shadow: 3px 4px 0px 0px #E6E6E6;
    &:hover{
-      color: $white;
+      background-color: $white;
+      color: $primary-color;
+   }
+   @include breakpoint(large) {
+      &:hover, &:focus{
+         background-color: $primary-color;
+         color: $white;
 
+      }
    }
 }

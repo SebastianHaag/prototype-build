@@ -1,0 +1,43 @@
+.reveal__modal{
+   padding: rem-calc(32);
+   @include breakpoint(medium) {
+      padding: rem-calc(48);
+      padding-bottom: rem-calc(32);
+   }
+   @include breakpoint(large) {
+      padding: rem-calc(64);
+      padding-bottom: rem-calc(48);
+   }
+   @include breakpoint(xlarge) {
+      padding-top: rem-calc(80);
+      padding-left: rem-calc(128);
+      padding-bottom: rem-calc(64);
+      padding-right: rem-calc(128);
+   }
+   p{
+      padding-top: 16px;
+      @include breakpoint(large) {
+         max-width: 80%;
+      }
+   }
+   a{
+      color: #403F43;
+      border-bottom: 2px solid $primary-color;
+      padding-bottom: 2px;
+   }
+   .reveal__modal__ullirow{
+      @include breakpoint(large) {
+         width: 40%;
+         display: table-cell;
+      }
+   }
+   .reveal__modal__contact{
+      padding-top: 32px;
+   }
+}
+
+.close__reveal__modal{
+   top: 20px;
+   right: 24px;
+   @include css-transition($short-transition);
+}
